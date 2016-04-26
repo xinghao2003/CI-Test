@@ -21,5 +21,6 @@ if(count(glob("plugins/DevTools/ClearSky*.phar")) === 0){
 	echo "No server phar created!\n";
 	exit(1);
 }else{
+	echo "Server phar created!\n";
 	exit(0);
 }
